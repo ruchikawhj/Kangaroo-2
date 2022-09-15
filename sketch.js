@@ -193,7 +193,7 @@ function spawnObstacles() {
   }
 }
 
-function reset(){
+/*function reset(){
   gameState = PLAY;
   gameOver.visible = true;
   restart.visible = true;
@@ -202,7 +202,7 @@ function reset(){
                 kangaroo_running);
   obstaclesGroup.Each();
   shrubsGroup.destroyEach();
-  score = 0;
+  score = 0;*/
 }
 
 /*function reset(){
@@ -229,7 +229,7 @@ function reset(){
   score = 0;
 }*/
 
-/*function reset(){
+function reset(){
   gameState = PLAY;
   gameOver.visible = false;
   restart.visible = false;
@@ -239,5 +239,5 @@ function reset(){
   obstaclesGroup.destroyEach();
   shrubsGroup.destroyEach();
   score = 0;
-}*/
+}
 
