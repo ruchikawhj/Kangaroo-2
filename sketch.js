@@ -202,8 +202,8 @@ function spawnObstacles() {
                 kangaroo_running);
   obstaclesGroup.Each();
   shrubsGroup.destroyEach();
-  score = 0;*/
-}
+  score = 0;
+}*/
 
 /*function reset(){
   gameState = PLAY;
